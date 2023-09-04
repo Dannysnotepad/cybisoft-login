@@ -1,0 +1,156 @@
+body{
+  background-color: lightgray;
+}
+
+.body{
+  
+}
+
+.logo{
+  text-align: Center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: slategray;
+}
+
+form{
+  background-color: #FDFDFF73;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+form > img{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 115px;
+  border-radius: 150px;
+}
+
+.name,
+.password{
+  width: 270px;
+  height: 30px;
+  border-radius: 5px;
+  border: 3px solid #ccc;
+  margin-bottom: 10px;
+  outline: none;
+  text-align: center;
+  box-shadow: 0px 0px 5px #ccc;
+  background-color: #FDFDFF73;
+}
+
+.name::placeholder,
+.password::placeholder{
+  text-align: center;
+}
+
+.submit{
+  width: 274px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: slategray;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.submit:hover{
+  background-color: #ccc;
+  color: black;
+}
+.submit:active{
+  background-color: #ccc;
+  color: black;
+}
+
+.notice{
+  color: slategray;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/***************DARK THEME******************/
+
+
+.body{
+  
+}
+.Logo{
+  text-align: Center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+form{
+  background-color: #FDFDFF73;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+form > img{
+  width: 20%;
+  margin-top: 10px;
+  margin-left: 115px;
+  border-radius: 150px;
+}
+
+.Name,
+.Password{
+  width: 270px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 3px solid #272835;
+  margin-bottom: 10px;
+  outline: none;
+  text-align: center;
+  box-shadow: 0px 0px 5px #272835;
+  background-color: wheat;
+}
+
+.Name::placeholder,
+.Password::placeholder{
+  text-align: center;
+}
+
+.Submit{
+  width: 274px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #272835;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.Submit:hover{
+  background-color: #000;
+  color: whitesmoke;
+}
+.Submit:active{
+  background-color: #000;
+  color: whitesmoke;
+}
+
+.Notice{
+  color: white;
+  font-weight: bold;
+  text-align: center
+}
